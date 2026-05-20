@@ -1,0 +1,9 @@
+@echo off
+echo Starting Ali Academy Management System...
+echo.
+echo Opening browser...
+start http://127.0.0.1:8000
+echo.
+echo Starting Laravel Server...
+php artisan serve
+pause
